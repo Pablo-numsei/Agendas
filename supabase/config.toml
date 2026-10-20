@@ -1,0 +1,9 @@
+[functions.journal-response]
+verify_jwt = true
+
+[functions.send-due-push]
+# The function checks its own x-cron-secret header from Supabase Vault.
+verify_jwt = false
+
+[functions.community-review]
+verify_jwt = true

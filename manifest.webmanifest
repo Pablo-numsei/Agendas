@@ -1,0 +1,14 @@
+{
+  "id": "./",
+  "name": "Meu Progresso",
+  "short_name": "Meu Progresso",
+  "description": "Um espaço para acompanhar seu progresso e cuidar de você.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f4",
+  "theme_color": "#215b45",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
